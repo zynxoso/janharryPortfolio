@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JanHarryM.</title>
+    <link type="icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/mediaqueries.css">
+</head>
+<body>
+    <div class="container" id="Home">
+
+        <header>
+            <nav id="desktop-nav">
+                <div class="logo">Harry.</div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        
+        <nav id="hamburger-nav">
+            <div class="logo">Harry.</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="services.html" onclick="toggleMenu()">Services</a></li>
+                    <li><a href="project.html" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+        </header>
+
+        <section id="profile">
+            <div class="section__pic-container" data-aos="zoom-in" data-aos-delay="100">
+                <img src="assets/images/mypicture.png" alt="Jan Harry Madrona profile picture" />
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Jan Harry Madrona</h1>
+                <p class="section__text__p2">Frontend Developer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('ASSETS/resume.pdf')">Download CV </button>
+                    <button class="btn btn-color-1" onclick="location.href='contact.html'">Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img src="assets/images/linkedin-in.svg" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/ako-po-si-natoy-0784b629b/'" />
+                    <img src="assets/images/github.svg" alt="My Github profile" class="icon" onclick="location.href='https://github.com/zynxoso'" />
+                    <img src="assets/images/tiktok.svg" alt="My tiktok profile" class="icon" onclick="location.href='https://github.com/zynxoso'" />
+                    <img src="assets/images/instagram.svg" alt="My instagram profile" class="icon" onclick="location.href='https://github.com/zynxoso'" />
+                    <img src="assets/images/youtube.svg" alt="My youtube profile" class="icon" onclick="location.href='https://github.com/zynxoso'" />
+                </div>
+            </div>
+        </section>
+        
+        <section id="about">
+            <p class="section__text__p1">Discover My Journey</p>
+            <h1 class="title">About me</h1>
+            <div class="section-container">
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <!-- Experience Details -->
+                        <div class="details-container">
+                            <img
+                                src="ASSETS/images/experience.png"
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <h3>Experience</h3>
+                            <p>7+ months <br />Frontend Development</p>
+                        </div>
+                        <!-- Education Details -->
+                        <div class="details-container">
+                            <img
+                                src="ASSETS/images/education.png"
+                                alt="Education icon"
+                                class="icon"
+                            />
+                            <h3>Education</h3>
+                            <p>Bachelor in Science and information technology</p>
+                        </div>
+                    </div>
+                    <!-- About Me Text -->
+                    <div class="text-container">
+                        <p>
+                            Hello, my name is Jan Harry Madrona. I am a dedicated Frontend and
+                            Backend Developer proficient in HTML, CSS, and JavaScript. My keen 
+                            curiosity and readiness to adopt innovative tools position me as a 
+                            valuable contributor to projects that demand a comprehensive blend of 
+                            frontend and backend expertise.
+                        </p>
+                    </div>
+                </div>  
+                <div class="section__pic-container">
+                    <img
+                        src="assets/images/mypicture-about.png"
+                        alt="Profile picture"
+                        class="about-pic"/>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+</body>
+</html>
